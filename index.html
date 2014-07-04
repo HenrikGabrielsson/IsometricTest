@@ -4,11 +4,22 @@
         <title>Testing isometric graphics</title>
         <meta charset="utf-8">
         
+        <style>
+            canvas
+            {
+                position:absolute;
+                left:0;
+                top:0;
+                border:1px solid black;
+            }
+        </style>
+        
     </head>
     
     <body>
         <div id="container">
-            <canvas id="gameBoard"></canvas>
+            <canvas id="mapCanvas"></canvas>
+            <canvas id="dudeCanvas"></canvas>
         </div>
     <script src="script.js" type="text/javascript"></script>    
         
